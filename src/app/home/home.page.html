@@ -1,29 +1,22 @@
 
-    <ion-content>
-        <div align="center" padding>
-            <h1>Them</h1>
+<ion-content background>
 
-            <button ion-button (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></button>  {{Life1}} <button ion-button (click)="AddNumber1()"><ion-icon name="add"></ion-icon></button>
-        </div>
+    <div class="center1" padding>
+        <h1 align="center">Them</h1>
+        <button ion-button (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></button>  {{Life1}} <button ion-button (click)="AddNumber1()"><ion-icon name="add"></ion-icon></button>
+    </div>
 
-
-        <img class="img" src="../../PW.jpg" />
-
-
-
-        <div align="center" class="ion-padding">
-            <h1>You</h1>
-
-            <button ion-button size="large" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></button>  {{Life2}} <button ion-button (click)="AddNumber2()"><ion-icon name="add"></ion-icon></button>
-        </div>
+    <div align="center" class="center">
+        <button ion-button size="large" (click)="Reset()"> <ion-icon name="refresh"> </ion-icon></button>
+    </div>
 
 
-        <div align="center" class="ion-padding">
+    <div padding class="center2">
+        <button ion-button size="large" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></button>  {{Life2}} <button ion-button (click)="AddNumber2()"><ion-icon name="add"></ion-icon></button>
+        <h1 align="center">You</h1>
+    </div>
 
-            <button ion-button (click)="Reset()"> <ion-icon name="refresh"> </ion-icon></button>
-
-        </div>
 
 
-    </ion-content>
+</ion-content>
 
