@@ -14,16 +14,19 @@ ion-content{
     position: fixed;
     top:25%;
     left:50%;
-    margin-top:-50px;
-    margin-left: -75px;
+    margin-top:-100px;
+    margin-left: -32px;
+    color:white;
+    transform:rotate(-180deg);
 }
 
 .center2 {
     position: fixed;
     top: 75%;
     left: 50%;
-    margin-top: -50px;
-    margin-left: -75px;
+    margin-top: 115px;
+    margin-left: -20px;
+    color:white;
 }
 
 .center{
@@ -33,3 +36,46 @@ ion-content{
     margin-top:-30px;
     margin-left:-30px;
 }
+
+.left1{
+    position:fixed;
+    top:25%;
+    left:25%;
+    margin-top:-50px;
+    margin-left:-75px;
+}
+
+.left2 {
+    position: fixed;
+    top: 85%;
+    left: 25%;
+    margin-top: -50px;
+    margin-left: -75px;
+}
+
+.right1 {
+    position: fixed;
+    top: 18%;
+    right: 6%;
+}
+
+.right2 {
+    position: fixed;
+    top: 79%;
+    right:6%
+}
+
+.leftLife {
+    position: fixed;
+    top: 18%;
+    left: 47%;
+    color:white;
+}
+
+.rightLife {
+    position: fixed;
+    top: 78%;
+    left: 47%;
+    color:white;
+}
+

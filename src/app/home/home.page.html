@@ -1,22 +1,20 @@
 
 <ion-content background>
 
-    <div class="center1" padding>
-        <h1 align="center">Them</h1>
-        <button ion-button (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></button>  {{Life1}} <button ion-button (click)="AddNumber1()"><ion-icon name="add"></ion-icon></button>
-    </div>
+    <!--<ion-button (click)="GoToAbout()"> <ion-icon name="information-circle-outline" class="topRight"></ion-icon></ion-button>-->
+
+    <h1 class="center1">Them</h1>
+    <ion-button size="large" color="black" class="left1" (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></ion-button> <h1 class="leftLife"> {{Life1}}  </h1><ion-button size="large" class="right1" color="black" (click)="AddNumber1()"><ion-icon name="add"></ion-icon></ion-button>
+
+
 
     <div align="center" class="center">
-        <button ion-button size="large" (click)="Reset()"> <ion-icon name="refresh"> </ion-icon></button>
+        <ion-button color="black" size="large" (click)="Reset()"> <ion-icon name="refresh"> </ion-icon></ion-button>
     </div>
 
 
-    <div padding class="center2">
-        <button ion-button size="large" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></button>  {{Life2}} <button ion-button (click)="AddNumber2()"><ion-icon name="add"></ion-icon></button>
-        <h1 align="center">You</h1>
-    </div>
-
-
+    <ion-button class="left2" size="large" color="black" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></ion-button><h1 class="rightLife">  {{Life2}}  </h1><ion-button size="large" color="black" class="right2" (click)="AddNumber2()"><ion-icon name="add"></ion-icon></ion-button>
+    <h1 class="center2">You</h1>
 
 </ion-content>
 
