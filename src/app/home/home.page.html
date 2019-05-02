@@ -1,14 +1,29 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
-</ion-content>
+    <ion-content>
+        <div align="center" padding>
+            <h1>Them</h1>
+
+            <button ion-button (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></button>  {{Life1}} <button ion-button (click)="AddNumber1()"><ion-icon name="add"></ion-icon></button>
+        </div>
+
+
+        <img class="img" src="../../PW.jpg" />
+
+
+
+        <div align="center" class="ion-padding">
+            <h1>You</h1>
+
+            <button ion-button size="large" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></button>  {{Life2}} <button ion-button (click)="AddNumber2()"><ion-icon name="add"></ion-icon></button>
+        </div>
+
+
+        <div align="center" class="ion-padding">
+
+            <button ion-button (click)="Reset()"> <ion-icon name="refresh"> </ion-icon></button>
+
+        </div>
+
+
+    </ion-content>
+
