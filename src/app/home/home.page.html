@@ -4,18 +4,18 @@
         <a class="ion-home color-primary item" href="#" onclick="window.open('https://github.com/ANBASS/LifeTotals', '_system', 'location=yes'); return false;"><ion-icon size="large" class="icon" name="logo-github"></ion-icon></a>
 
         <h1 class="center1">Them</h1>
-        <ion-button size="large" color="black" class="right1" (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></ion-button> <h1 class="leftLife"> {{Life1}}  </h1><ion-button size="large" class="left1" color="black" (click)="AddNumber1()"><ion-icon name="add"></ion-icon></ion-button>
+        <ion-button size="large" color="black" class="right1" (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></ion-button> <h1 class="topLife"> {{Life1}}  </h1><ion-button size="large" class="left1" color="black" (click)="AddNumber1()"><ion-icon name="add"></ion-icon></ion-button>
 
 
   
            <div style="width: 100%" class="button-bar center btn-group">
-               <button (click)="Reset()" style="width:33.33%">20</button>
+               <button (click)="set20()" style="width:33.33%">20</button>
                <button (click)="set30()" style="width:33.33%">30</button>
                <button (click)="set40()" style="width:33.33%">40</button>
            </div>
      
 
-        <ion-button class="left2" size="large" color="black" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></ion-button><h1 class="rightLife">  {{Life2}}  </h1><ion-button size="large" color="black" class="right2" (click)="AddNumber2()"><ion-icon name="add"></ion-icon></ion-button>
+        <ion-button class="left2" size="large" color="black" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></ion-button><h1 class="bottomLife">  {{Life2}}  </h1><ion-button size="large" color="black" class="right2" (click)="AddNumber2()"><ion-icon name="add"></ion-icon></ion-button>
         <h1 class="center2">You</h1>
 
     </ion-content>

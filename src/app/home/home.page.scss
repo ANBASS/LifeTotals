@@ -31,7 +31,7 @@ ion-content{
 
 .center{
     position:fixed;
-    top:50%;
+    top:47%;
     left:0%;
 }
 
@@ -43,6 +43,8 @@ ion-content{
     float: left;
     color: white;
     bottom:50%;
+    font-size:x-large;
+    border-radius:4px;
 }
 
 .left1{
@@ -73,7 +75,7 @@ ion-content{
     right:6%
 }
 
-.leftLife {
+.topLife {
     position: fixed;
     top: 18%;
     left: 47%;
@@ -81,7 +83,7 @@ ion-content{
     transform:rotate(-180deg);
 }
 
-.rightLife {
+.bottomLife {
     position: fixed;
     top: 78%;
     left: 47%;
@@ -93,6 +95,5 @@ ion-content{
     top: 95%;
     right:8%;
     color:white;
-
 }
 
