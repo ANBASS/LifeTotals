@@ -14,7 +14,7 @@ ion-content{
     position: fixed;
     top:25%;
     left:50%;
-    margin-top:-100px;
+    margin-top:-110px;
     margin-left: -32px;
     color:white;
     transform:rotate(-180deg);
@@ -70,6 +70,7 @@ ion-content{
     top: 18%;
     left: 47%;
     color:white;
+    transform:rotate(-180deg);
 }
 
 .rightLife {
@@ -77,5 +78,13 @@ ion-content{
     top: 78%;
     left: 47%;
     color:white;
+}
+
+.icon{
+    position:fixed;
+    top: 95%;
+    right:8%;
+    color:white;
+
 }
 

@@ -1,20 +1,21 @@
 
-<ion-content background>
+    <ion-content background>
 
-    <!--<ion-button (click)="GoToAbout()"> <ion-icon name="information-circle-outline" class="topRight"></ion-icon></ion-button>-->
+        <a class="ion-home color-primary item" href="#" onclick="window.open('https://github.com/ANBASS/LifeTotals', '_system', 'location=yes'); return false;"><ion-icon size="large" class="icon" name="logo-github"></ion-icon></a>
 
-    <h1 class="center1">Them</h1>
-    <ion-button size="large" color="black" class="left1" (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></ion-button> <h1 class="leftLife"> {{Life1}}  </h1><ion-button size="large" class="right1" color="black" (click)="AddNumber1()"><ion-icon name="add"></ion-icon></ion-button>
-
-
-
-    <div align="center" class="center">
-        <ion-button color="black" size="large" (click)="Reset()"> <ion-icon name="refresh"> </ion-icon></ion-button>
-    </div>
+        <h1 class="center1">Them</h1>
+        <ion-button size="large" color="black" class="left1" (click)="TakeNumber1()"><ion-icon name="remove"></ion-icon></ion-button> <h1 class="leftLife"> {{Life1}}  </h1><ion-button size="large" class="right1" color="black" (click)="AddNumber1()"><ion-icon name="add"></ion-icon></ion-button>
 
 
-    <ion-button class="left2" size="large" color="black" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></ion-button><h1 class="rightLife">  {{Life2}}  </h1><ion-button size="large" color="black" class="right2" (click)="AddNumber2()"><ion-icon name="add"></ion-icon></ion-button>
-    <h1 class="center2">You</h1>
 
-</ion-content>
+        <div align="center" class="center">
+            <ion-button color="black" size="large" (click)="Reset()"> <ion-icon name="refresh"> </ion-icon></ion-button>
+        </div>
+
+
+
+        <ion-button class="left2" size="large" color="black" (click)="TakeNumber2()"><ion-icon name="remove"></ion-icon></ion-button><h1 class="rightLife">  {{Life2}}  </h1><ion-button size="large" color="black" class="right2" (click)="AddNumber2()"><ion-icon name="add"></ion-icon></ion-button>
+        <h1 class="center2">You</h1>
+
+    </ion-content>
 

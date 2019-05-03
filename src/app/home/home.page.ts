@@ -34,5 +34,13 @@ export class HomePage {
         this.Life2 = 20;
     }
 
+    set30() {
+        this.Life1 = 30;
+        this.Life2 = 30;
+    }
 
+    set40() {
+        this.Life1 = 40;
+        this.Life2 = 40;
+    }
 }
